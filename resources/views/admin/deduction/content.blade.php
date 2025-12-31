@@ -40,7 +40,7 @@
           </div>
         </td>
         <td class="text-center">
-          <span><b>Rs. {{ $deduction->amount }}</b></span>
+          <span><b>Php {{ $deduction->amount }}</b></span>
         </td>
         <td>
           <p>{{ $deduction->description }}</p>
@@ -69,7 +69,7 @@
     <tfoot>
       <tr>
         <td colspan="6" class="text-right">
-          <h6>Total Deductions : <span class="text-danger">Rs. {{ $sum }}</span> </h6>
+          <h6>Total Deductions : <span class="text-danger">Php {{ $sum }}</span> </h6>
         </td>
       </tr>
     </tfoot>

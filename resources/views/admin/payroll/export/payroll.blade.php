@@ -150,7 +150,7 @@
                     @endforeach
                     <tr>
                       <td colspan="2" class="text-right"><b>Total</b></td>
-                      <td class="text-right"><b>RS. {{ number_format($total,2) }}</b></td>
+                      <td class="text-right"><b>Php {{ number_format($total,2) }}</b></td>
                     </tr>
                   </div>
                 </div>

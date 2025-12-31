@@ -129,7 +129,7 @@
                 </tr>
                 @endforeach
                 <tr>
-                  <td colspan="2" class="text-right text-primary">Rs.{{ $total_deduction }}</td>
+                  <td colspan="2" class="text-right text-primary">Php{{ $total_deduction }}</td>
                 </tr>
               </tbody>
             </table>

@@ -62,9 +62,9 @@ class PayrollController extends Controller
 
                     	$amount = ($data->gross_amount + $total_overtime_amount) - $total_deduction;
                     	if($amount <= 0){
-                    		return "<b class='text-danger'>Rs.".number_format($amount,2)."</b>";
+                    		return "<b class='text-danger'>Php".number_format($amount,2)."</b>";
                     	}
-                    	return "<b>Rs.".number_format($amount,2)."</b>";
+                    	return "<b>Php".number_format($amount,2)."</b>";
                     })
                     ->rawColumns(['employee','gross','deduction','cash_advance','net_pay','overtime'])
                     ->toJson();
